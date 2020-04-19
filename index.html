@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello There :)</title>
-    <link rel="icon" href="/waving-hand.png">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+	<meta charset="utf-8"/>
+	<title>Hello There :)</title>
+	<link href="assets/css/style.css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class='container'>
-        <span id='clock' class='time'></span>
-        <span id='greetings' class='text'></span>
-        <canvas id='bgCanvas'></canvas>
-    </div>
+	<div id="clock" class="light">
+		<div class="display">
+			<div class="weekdays"></div>
+			<div class="ampm"></div>
+			<div class="alarm"></div>
+			<div class="digits"></div>
+		</div>
+	</div>
+	<div class="button-holder">
+		<p class="button" id="greet"></p>
+	</div>
 </body>
 
-<script src="main.js"></script>
-<script src="bg.js"></script>
-<!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
-<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
-<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script> -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+<script src="assets/js/script.js"></script>
 </html>
